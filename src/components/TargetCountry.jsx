@@ -41,7 +41,10 @@ const handleSubmit = (e) => {
            <div>
       {country ? (
                     <article className="card">
+                      <div className='img'>
                       <img src={country.flags.svg} alt="bandera" />
+                      </div>
+                     
                       <h1> {country.name.common}</h1>
                       <h2> Population: {country.population}</h2>
                       <h2> Capital: {country.capital}</h2>
