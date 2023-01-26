@@ -31,7 +31,7 @@ const handleSubmit = (e) => {
   return (
     <section>
       <form onSubmit={handleSubmit}>
-      <div>
+      <div className='header'>
         <input id="pais" type="text" placeholder="wrhite your country"/>
         <button>Search</button> 
       </div>

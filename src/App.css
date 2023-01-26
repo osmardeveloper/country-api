@@ -1,12 +1,14 @@
 body{
-min-height: 100vh;
-min-width: 100vh;
+
 display: flex;
 align-items: center;
 justify-content: center;
-padding: 0;
 text-align: center;
+margin: 0;
+padding: 0;
+min-height: 100vh;
 }
+
 
 .App{
   display: flex;
@@ -14,6 +16,8 @@ text-align: center;
  max-width: 2000px;
  align-items: center;
  justify-content: center;
+ margin: 0;
+ padding: 0;
 }
 
 .card{
@@ -23,7 +27,7 @@ text-align: center;
   background-color: rgb(0, 0, 0);
   border-radius: 20px;
   box-shadow: 10px 12px 5px rgba(133, 96, 96, 0.5);
-  margin: 40px 20px 20px 20px;
+  margin: 20px 0 0 0;
 }
 
 img{
@@ -55,6 +59,11 @@ button{
   font-size: 16px;
 }
 
+.header{
+  margin: 0;
+  padding: 0;
+}
+
 input{
   padding: 12px 20px;
   margin: 0px;
@@ -66,4 +75,34 @@ input{
   color: black;
   outline: none;
   font-size: 16px;
+}
+
+@media(max-width: 600px){
+  img{
+    width: 220px;
+    height: 120px;
+    border-radius: 20px;
+    margin: 5px 5px 0 5px;
+  }
+
+  
+button{
+  padding: 10px;
+}
+
+input{
+  width: 180px;
+  padding: 10px;
+}
+
+
+h1{
+  margin: 15px;
+  font-size: 24px;
+}
+
+h2{
+  font-size: 18px;
+}
+
 }
